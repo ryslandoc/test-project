@@ -191,7 +191,7 @@ header .wrapper-header .header-top .header-account .account-list .account-item .
   height: 30px;
   border-radius: 100%;
   overflow: hidden;
-  background-image: url("/images/profile-img.jpg");
+  background-image: url("../images/profile-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -449,7 +449,7 @@ header .header-menu .menu-list .menu-item:nth-child(2) a {
 }
 
 .collection {
-  background-image: linear-gradient(0deg, rgb(40, 39, 42) 0%, rgba(40, 39, 42, 0.9) 40%, rgba(40, 39, 42, 0.2) 50%, rgba(40, 39, 42, 0) 100%), linear-gradient(180deg, rgb(40, 39, 42) 0%, rgba(40, 39, 42, 0) 40%), url("/images/background-mountains.jpg");
+  background-image: linear-gradient(0deg, rgb(40, 39, 42) 0%, rgba(40, 39, 42, 0.9) 40%, rgba(40, 39, 42, 0.2) 50%, rgba(40, 39, 42, 0) 100%), linear-gradient(180deg, rgb(40, 39, 42) 0%, rgba(40, 39, 42, 0) 40%), url("../images/background-mountains.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -732,7 +732,7 @@ header .header-menu .menu-list .menu-item:nth-child(2) a {
 
 .subscribe {
   position: relative;
-  background-image: linear-gradient(0deg, rgba(40, 39, 42, 0.7) 0%, rgba(40, 39, 42, 0.7) 100%), url("/images/subscribe-bg.png");
+  background-image: linear-gradient(0deg, rgba(40, 39, 42, 0.7) 0%, rgba(40, 39, 42, 0.7) 100%), url("../images/subscribe-bg.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center 70%;
