@@ -1,0 +1,56 @@
+@import "vars";
+
+/* Global styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $fz-16;
+  color: $white;
+  background-color: $background;
+  overflow-x: hidden;
+}
+
+.wrapper-container {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: $fz-38;
+  font-weight: 700;
+}
+
+.title-small {
+  font-size: $fz-35;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: $button-background;
+  color: $black;
+  font-size: $fz-16;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 10px 40px;
+  transition: transform 0.2s;
+
+  &:hover {
+    transition: transform 0.2s;
+    transform: translateY(-3px);
+  }
+}
+
+/* Style for head hidden */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
